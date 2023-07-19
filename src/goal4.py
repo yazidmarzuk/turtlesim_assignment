@@ -64,7 +64,7 @@ def go_to_goal(goal):
         vel.linear.x=Kp*(dist)+Kd*dedt+Ki*es		#PID Implementation
         vel.angular.z=6*Kp*(atan2(goal.y - position.y, goal.x - position.x)-position.theta)		#Angle needed to turn
         vel_prev,tf=step_vel(vel,vel_prev,tf)
-        #vel_pub.publish(vel)				
+        # vel_pub.publish(vel)				
         ti=tf
         rate.sleep()
         dp=dist
@@ -77,13 +77,13 @@ def go_to_goal(goal):
 def chase(target):
     
     dist=sqrt((position.x-target.x)**2+(position.y-target.y)**2)
-    print("Current dist:",dist)
+
     if(dist<3):
+        print("Distance Less than 3 uniyts\n")
         print("Caught RT\n")
         rt_pose.unregister()
         rospy.set_param('caughtStatus',True)
     else:
-        print("Moving now")
         go_to_goal(target)
         
 
