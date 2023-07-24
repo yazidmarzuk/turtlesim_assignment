@@ -11,3 +11,4 @@ A repo for submitting assignment for the role of ROS Developer.
 #### [Goal 3](https://drive.google.com/file/d/1aTU4SufDKWmXh1yWN4tl4fP0DiHF9u1j/view?usp=drive_link)
 #### [Goal 4](https://drive.google.com/file/d/1bhIwgVEu9LXUF1HKtkNDgdqqenvufkLi/view?usp=drive_link)
 #### [Goal 5](https://drive.google.com/file/d/1IQQ2v37eQfP4O063ubjV3BUt5Mj-vc_x/view?usp=drive_link)
+#### [Goal 6](https://drive.google.com/file/d/1kyWJnir1CZuFUV_u7BIV-wtSlOmVBeRD/view?usp=drive_link)
