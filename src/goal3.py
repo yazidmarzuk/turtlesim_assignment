@@ -80,7 +80,7 @@ def circles(vel,radius):
 if __name__ == '__main__':
     try:
         
-        rospy.init_node('circle_turtle')
+        rospy.init_node('turtle_in_circle')
         position=Pose()
         vel_pub=rospy.Publisher('/turtle1/cmd_vel',Twist,queue_size=10)
         pose_pub=rospy.Publisher('/rt_real_pose',Pose,queue_size=10)

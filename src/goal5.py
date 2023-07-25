@@ -102,7 +102,7 @@ def chase(target):
 if __name__ == '__main__':
     try:
     
-        rospy.init_node('chaser_turtle_velocity')
+        rospy.init_node('chase_turtle_slow')
         position=Pose()
         vel_pub=rospy.Publisher('/turtle2/cmd_vel',Twist,queue_size=10)
         rt_pose=rospy.Subscriber('/rt_real_pose',Pose,chase)
