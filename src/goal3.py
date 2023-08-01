@@ -90,7 +90,7 @@ if __name__ == '__main__':
             
         while not rospy.is_shutdown():      
             v=2   #velocity
-            r=2   #Radius
+            r=30  #Radius
             circles(v,r)
 
        
